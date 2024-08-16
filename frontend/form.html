@@ -19,7 +19,7 @@
         <label for="password">Contraseña </label><br>
         <input type="password" id="password" name="password" placeholder="Ingrese su contraseña"><br>
         <label for="phone">Celular</label><br>
-        <input type="text" name="phone" id="phone" placeholder="Ingrese su celular"><br>
+        <input type="tel" name="phone" id="phone" placeholder="Ingrese su celular"><br>
         <label for="birthday">Fecha de nacimiento</label><br>
         <input type="date" id="date" name="date" placeholder="Seleccione su fecha de nacimiento"><br>
         <label for="identification">Tipo de documento</label><br>
@@ -30,11 +30,20 @@
         <input type="radio" id="extranjeria" name="identification" value="CédulaDeExtranjería">
         <label for="CédulaDeExtramjería">Cédula extranjera</label><br>
         <label for="numeroDocumento">Número de documento</label><br>
-        <input type="text" id="numeroDocumento" name="numeroDocumento" placeholder="Ingrese su número de documento">
+        <input type="text" id="numeroDocumento" name="numeroDocumento" placeholder="Ingrese su número de documento"><br>
+        <label for="file">Fotocopia de la cédula en formato .jpeg</label><br>
+        <input type="file" id="file" name="file"><br>
         
+      </form>
+      <input type="submit" id="boton" value="Enviar">
 
-    </form>
+      <h2>Lista de usuarios</h2>
+      <select name="listaUsuarios" id="listaUsuarios"></select>
+      <p id="respuesta"></p>
+      <input type="submit" id="boton2" value="Obtener usuarios">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </body>
 </html>
