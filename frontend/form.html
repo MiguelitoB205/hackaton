@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Formulario de registro</h1>
-    <form>
+    <form name="myForm" action="index.html" method="get" onsubmit="return validateForm()">
         <label for="name">Nombre </label><br>
         <input type="text" id="name" name="name" placeholder="Ingrese su nombre"><br>
         <label for="lastName">Apellido</label><br>
@@ -34,8 +34,8 @@
         <label for="file">Fotocopia de la cédula en formato .jpeg</label><br>
         <input type="file" id="file" name="file"><br>
         
+        <input type="submit" id="boton" value="Enviar">
       </form>
-      <input type="submit" id="boton" value="Enviar">
 
       <h2>Lista de usuarios</h2>
       <select name="listaUsuarios" id="listaUsuarios"></select>
