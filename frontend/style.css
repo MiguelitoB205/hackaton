@@ -2,3 +2,11 @@ h1 {
     color: rgb(47, 153, 153);
 }
 
+.nav{
+    background-color: rgb(3, 3, 31);
+    padding: 30px;
+}
+
+.nav-link{
+    color: white
+}
