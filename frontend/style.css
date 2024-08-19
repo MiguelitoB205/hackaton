@@ -1,4 +1,13 @@
+*{
+    padding-top:10px;
+    
+}
+body{
+    padding-left:20px;
+}
+
 h1 {
+    padding-top: 70px;
     color: rgb(47, 153, 153);
 }
 
@@ -9,4 +18,20 @@ h1 {
 
 .nav-link{
     color: white
+}
+p{
+    color:gray
+}
+ .col{
+    background-color: rgb(3, 3, 31);
+    color: white;
+    margin:10px;
+    border-radius: 10px;
+}
+#noticias{
+    color: yellow;
+}
+
+#anuncio{
+    color: white;
 }
