@@ -35,3 +35,17 @@ p{
 #anuncio{
     color: white;
 }
+
+#titulo_registro{
+    text-align: center;
+    color: rgb(59, 121, 192);
+}
+
+#titulo_notificaciones{
+    text-align: center;
+    color: rgb(59, 121, 192);
+}
+
+#form_registro{
+    text-align: center;
+}
