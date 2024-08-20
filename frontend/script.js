@@ -11,6 +11,3 @@ function validateForm(){
     } 
     
 }
-async function cargarDatos(){
-    
-}
