@@ -1,7 +1,16 @@
 function validateForm(){
     let name = document.forms["myForm"]["name"].value;
-    if(name=="") {
-        alert("Falta el nombre!");
+    let email = document.forms["myForm"]["email"].value;
+    let passowrd = document.forms["myForm"]["password"].value;
+    
+    
+
+    if (name=="" || email=="" || passowrd=="") {
+        alert("Ops! Los datos están incorrectos")
         return false;
     } 
+    
+}
+async function cargarDatos(){
+    
 }
