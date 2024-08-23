@@ -44,14 +44,14 @@
 
   <h1 id="titulo_registro">Registro de Usuario</h1>
   <form action="perfil.html" id="form_registro" name="myForm" onsubmit="return validateForm()" method="get">
-    <label for="name">Nombre</label><br>
+    <label for="name">Nombre*</label><br>
     <input type="text" class="form-control" id="name" name="name"><br>
-    <label for="email">Correo electrónico</label><br>
+    <label for="email">Correo electrónico*</label><br>
     <input type="email" class="form-control"  name="email"><br>
-    <label for="password">Contraseña</label><br>
+    <label for="password">Contraseña*</label><br>
     <input type="password" class="form-control"  name="password"><br>
     <label for="birthday">Fecha de nacimineto</label>
-    <input type="date" class="form-control">
+    <input type="date" class="form-control" name="birthday">
     <br><br>
     <button type="submit" class="btn btn-primary">Registrarse</button>
   </form>
